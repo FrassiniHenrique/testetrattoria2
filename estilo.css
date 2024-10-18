@@ -207,6 +207,10 @@ section h2{
     color: black;
 }
 
+.servicos a{
+    text-decoration: none;
+}
+
 
 .texto-oculto{
     display: none;
