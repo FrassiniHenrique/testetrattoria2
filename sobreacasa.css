@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(250, 241, 225);
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    background-color: rgb(250, 241, 225);
+    display: flex;
+    flex-flow: row wrap;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    border-bottom: solid rgb(230, 218, 197);;
+
+}
+
+.logo{
+    flex:20%;
+    margin-left: 10%;
+    text-align: left;
+    
+
+}
+
+.logo h1{
+    font-family: "Lobster", sans-serif;
+    color: #180f4A;
+    font-size: 34px;
+    
+}
+
+ul{
+    font-family: "Roboto", sans-serif;
+    list-style-type:none;
+    padding: 20px;
+    margin: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color:black;
+    font-size: 20px;
+    padding: 20px 16px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+    color: red;
+    border-top: 4px solid green
+    
+}
+
+li .dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position:absolute;
+    background-color:rgb(254, 247, 235);
+    width: 150px;
+    border: solid rgb(230, 218, 197);
+}
+
+.dropdown-content a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover{
+    color: red;
+    border-top: 4px solid green
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+
+}
+
+#botao{
+    background: black;
+    padding: 0 24px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+
+}
+
+#botao:hover{
+    border: none;
+    background: rgb(187, 86, 117);
+    color: black;
+
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    /* background: gray; */
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.headline{
+    margin-left:10%;
+    flex: 40%;
+    /* border: 1px solid black; */
+}
+
+.headline h2{
+    font-family: "Italiana", sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    color: #180f4A;
+    padding: 0;
+    margin: 0;
+}
+.headline h3{
+    font-family: "Italiana", sans-serif;
+    font-weight: lighter;
+    color: #180f4A;
+    padding: 0;
+    margin: 0;
+}
+
+.operation ol{
+    list-style-type: none;
+    columns: 1;
+}
+
+
+
+
+.headline p{
+    font-family: "Roboto", sans-serif;
+    color: gray;
+    text-align: left;
+}
+
+.headline h4{
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+
+
+
+.img-headline {
+    margin-top: 36px;
+    margin-right:10%;
+    flex:40%;
+    text-align: center;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+
+
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Italiana", sans-serif;
+    font-weight: bold;
+    color: #180f4A;
+
+}
+
+
+
+footer{
+    margin-top: 100px;
+    height: 200px;
+    background-color: rgb(244, 227, 195);
+    text-align: center;
+    border-top: 5px solid rgb(239, 206, 145);
+
+}
+.logo-rodape{
+    padding: 8px;
+
+}
+
+.agencia{
+    font-family: "Italiana", sans-serif;
+    font-weight: lighter;
+    color: black;
+    font-size: 24px;
+}
+
+.chef {
+    font-family: "Italiana", sans-serif;
+    font-weight: lighter;
+    color: black;
+    font-size: 16px;
+}
+
+.social-links img {
+    display: inline;
+    height: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+
+
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    
+}
