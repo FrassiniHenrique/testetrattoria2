@@ -253,6 +253,7 @@ footer{
 }
 .logo-rodape{
     padding: 8px;
+    margin-top: 0;
 
 }
 
@@ -282,6 +283,12 @@ footer{
     text-decoration: none;
 }
 
+.bottom-menu a{
+    display:inline-block;
+    
+    color: black;
+    font-size: 16px;
+}
 
 
 .whats{
